@@ -29,15 +29,15 @@ public class punto1 {
         if(A>B&&A>C){
             System.out.print("El nùmero mayor es: "+A);
         }if(B>A&&B>C){
-                System.out.print("El nùmero mayor es: "+B);
-            }if(C>A&&C>B){
-                System.out.print("El nùmero mayor es: "+C);
-            }if(A<B&&A<C){
-                System.out.print("El nùmero menor es: "+A);
-            }if(B<A&&B<C){
-                System.out.print("El nùmero menor es: "+B);
-            }if(C<B&&C<A){
-                System.out.print("El nùmero menor es: "+C);
-            }
+            System.out.print("El nùmero mayor es: "+B);
+        }if(C>A&&C>B){
+            System.out.print("El nùmero mayor es: "+C);
+        }if(A<B&&A<C){
+            System.out.print("El nùmero menor es: "+A);
+        }if(B<A&&B<C){
+            System.out.print("El nùmero menor es: "+B);
+        }if(C<B&&C<A){
+            System.out.print("El nùmero menor es: "+C);
+        }
     }
 }
