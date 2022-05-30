@@ -21,7 +21,7 @@ public class punto4 {
         N= Integer.parseInt(JOptionPane.showInputDialog(null,"Digite un nùmero: "));
         modulo=N%2;
         
-        
+         
         if(modulo==0){JOptionPane.showMessageDialog(null,"El nùmero es par");
         }else{JOptionPane.showMessageDialog(null,"El nùmero es impar");}
     }
