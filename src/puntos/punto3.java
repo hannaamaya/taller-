@@ -13,15 +13,18 @@ import javax.swing.JOptionPane;
 public class punto3 {
     
     public static void main(String[] args) {
-        
+        // Declaracion de variable
         int R;
         int H;
         float A;
         float pi=3.1416f;
         float V;
+        
+        //solicitud datos al usuario
         R=Integer.parseInt(JOptionPane.showInputDialog(null, "Digite el Radio: "));
         H=Integer.parseInt(JOptionPane.showInputDialog(null, "Digite el Altura: "));
         
+        //plantemiento y solucion del problema
         A=2*pi*R*(R+H);
         
         JOptionPane.showMessageDialog(null,"El area del cilindro es: "+A);

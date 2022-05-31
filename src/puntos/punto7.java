@@ -12,15 +12,17 @@ import javax.swing.JOptionPane;
  */
 public class punto7 {
     public static void main(String[] args) {
-        
+        //Declaraciòn de variables
         int A;
         int B;
         int C;
         
+        //se importo la libreria JOptionPane para solicitar datos al usuario y a su vez se convirtio en int con el parse int
          A= Integer.parseInt(JOptionPane.showInputDialog(null,"Digite el valor de A: "));
          B= Integer.parseInt(JOptionPane.showInputDialog(null,"Digite el valor de B: "));
          C= Integer.parseInt(JOptionPane.showInputDialog(null,"Digite el valor de C: "));
-         
+       
+        //se realizo un if para la comprabacion de un nùmero menor
         if (A<=B&&B<=C){
             JOptionPane.showMessageDialog(null,"El nùmero menor es: "+A);
         }else if(B<=A&&B<=C){

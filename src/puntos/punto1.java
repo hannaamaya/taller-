@@ -12,13 +12,13 @@ import java.util.Scanner;
  */
 public class punto1 {
     public static void main(String[] args) {
-        
+        // declaracion de variables
         int A=0;
         int B=0;
         int C=0;
         
         Scanner sc = new Scanner(System.in);
-        
+        // solicitar datos al usuario        
         System.out.print ("Ingrese el valor de A: ");
         A=sc.nextInt();
         System.out.print ("Ingrese el valor de B: ");
@@ -26,6 +26,7 @@ public class punto1 {
         System.out.print ("Ingrese el valor de C: ");
         C=sc.nextInt();
         
+        //comprobaciòn numero mayor y menor
         if(A>B&&A>C){
             System.out.print("El nùmero mayor es: "+A);
         }if(B>A&&B>C){
