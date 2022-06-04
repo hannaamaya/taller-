@@ -12,20 +12,20 @@ import javax.swing.JOptionPane;
  */
 public class punto12 {
     public static void main(String[] args) {
-        
-        int montoCompra,montoCompraTotal;
-        int descuento;
-       
-        montoCompra=Integer.parseInt(JOptionPane.showInputDialog(null,"Digite el valor de su compra: "));
-        
+        //Declaración de variables
+        float montoCompra,montoCompraTotal;
+        float descuento;
+        // solicitar datos al usuario
+        montoCompra=Float.parseFloat(JOptionPane.showInputDialog(null,"Digite el valor de su compra: "));
+        // caso en donde determine y compruebe el porcentaje de descuentos de acuerdo a la compra
         if (montoCompra>100){
             descuento=(montoCompra*10)/100;
             montoCompraTotal=montoCompra-descuento;
-            JOptionPane.showMessageDialog(null,"El valor de su compra es: "+montoCompra+"\n El total de su compra es: "+montoCompraTotal+" "+"\n Su descuento es: "+descuento+"%");
+            JOptionPane.showMessageDialog(null,"El valor de su compra es: "+montoCompra+"\n El total de su compra es: "+montoCompraTotal+" "+"\n Su descuento es: "+descuento);
         }else if (montoCompra>50 && montoCompra<=100){
             descuento=(montoCompra*2)/100;
             montoCompraTotal=montoCompra-descuento;
-            JOptionPane.showMessageDialog(null,"El valor de su compra es: "+montoCompra+"\n El total de su compra es: "+montoCompraTotal+" "+"\n Su descuento es: "+descuento+"%");
+            JOptionPane.showMessageDialog(null,"El valor de su compra es: "+montoCompra+"\n El total de su compra es: "+montoCompraTotal+" "+"\n Su descuento es: "+descuento);
         }else{
             JOptionPane.showMessageDialog(null,"El valor de su compra es: "+montoCompra+" "+"No tiene descuento");
         }
