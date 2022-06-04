@@ -26,8 +26,6 @@ public class punto10 {
             lado3=Integer.parseInt(JOptionPane.showInputDialog(null, "Digite el valor del lado3 "+"cm"));
             
             //se utiliza if para realizar la comprobaciòn de tipos de triangulos
-            
-            
               if (lado1==lado2 && lado1==lado3){
                 JOptionPane.showMessageDialog(null,"Es un triangulo Equilátero");
               }else if(lado1!=lado2 && lado1!=lado3 && lado2!=lado3){ 
@@ -36,5 +34,4 @@ public class punto10 {
                 JOptionPane.showMessageDialog(null,"Es un triangulo Isóceles");
               }
     }
-    
 }
